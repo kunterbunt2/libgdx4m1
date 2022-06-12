@@ -10,7 +10,7 @@ import com.mygdx.game.Libgdx4M1;
  * If you remove setFullscreenMode, it will work.
  * 
  */
-public class SpriteBatch {
+public class SpriteBatchTest {
 	public static void main(String[] arg) {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);

@@ -1,0 +1,16 @@
+xception in thread "main" java.lang.IllegalArgumentException: Error compiling shader: Vertex shader
+ERROR: 0:1: '' :  #version required and missing.
+ERROR: 0:1: 'attribute' : syntax error: syntax error
+Fragment shader:
+ERROR: 0:1: '' :  #version required and missing.
+ERROR: 0:7: 'varying' : syntax error: syntax error
+
+	at com.badlogic.gdx.graphics.g2d.SpriteBatch.createDefaultShader(SpriteBatch.java:164)
+	at com.badlogic.gdx.graphics.g2d.SpriteBatch.<init>(SpriteBatch.java:127)
+	at com.badlogic.gdx.graphics.g2d.SpriteBatch.<init>(SpriteBatch.java:81)
+	at com.mygdx.game.Libgdx4M1.create(Libgdx4M1.java:14)
+	at com.badlogic.gdx.backends.lwjgl3.Lwjgl3Window.initializeListener(Lwjgl3Window.java:416)
+	at com.badlogic.gdx.backends.lwjgl3.Lwjgl3Window.update(Lwjgl3Window.java:366)
+	at com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.loop(Lwjgl3Application.java:192)
+	at com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.<init>(Lwjgl3Application.java:166)
+	at com.mygdx.game.full.screen.SpriteBatchTest.main(SpriteBatchTest.java:21)
